@@ -1,1 +1,19 @@
 /* You can add global styles to this file, and also import other style files */
+body{
+    background-image: url("wave.svg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center bottom;
+}
+
+input.ng-touched.ng-invalid {
+    border-color: #dc3545;
+}
+
+input.ng-valid {
+    border-color: #00cba9;
+}
+
+.pint {
+    color: #00cba9;
+}

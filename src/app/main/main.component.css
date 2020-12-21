@@ -1,0 +1,29 @@
+
+.greenicon{
+    color: #00cba9;
+    border-color:  #00cba9;
+}
+
+.redicon{
+    color: #dc3545;
+    border-color: #dc3545;
+}
+
+.greeninput{
+    border-color:  #00cba9;
+}
+
+.redinput{
+    border-color: #dc3545;
+}
+
+.btn:focus {
+    outline: none;
+    box-shadow: none;
+    border:2px solid transparent;
+}
+
+.form-control:focus {
+    outline: none;
+    box-shadow: none;
+}

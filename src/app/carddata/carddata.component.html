@@ -1,0 +1,15 @@
+<div class="row">
+    <div class="col-10 offset-1 col-sm-8 offset-sm-2 col-md-6 offset-md-3 col-lg-4 offset-lg-4">
+      <div class="card px-3 py-2 mb-4">
+        <div class="text-center mb-4 mt-3">
+          <img width="150" height="170" class="img-fluid" [src]="persona.foto" alt="">
+        </div>
+        <p><b class="pint">Cedula:</b> {{persona.Cedula}}</p> 
+        <p><b class="pint">Nombre:</b> {{persona.Nombres}}</p>
+        <p><b class="pint">Apellidos:</b> {{persona.Apellido1}} {{persona.Apellido2}}</p>
+        <p><b class="pint">Fecha de Nacimiento:</b> {{persona.FechaNacimiento  | date}}</p>
+        <p><b class="pint">Zodiaco:</b> {{zodiaco}}</p>
+        <p><b class="pint">Edad:</b> {{edad}}</p>
+      </div>
+    </div>
+  </div>
